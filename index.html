@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q2Seatwork2</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Faculty+Glyphic&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<style>
+*{
+	font-family: "Faculty Glyphic", sans-serif;
+	color: white;
+}
+
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+	background-image: url(https://images2.alphacoders.com/130/1308182.jpeg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.container{
+	background-color: #522221;
+	border-radius: 5px;
+	width: max;
+  	padding: 20px;
+  	margin: auto;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  	border-radius: 6px;
+}
+
+label, h1, h3{
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+p{
+	text-align: center;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+<div class="container">
+	<form class="form-group">
+
+	<h1 class="text-center">Drama Club Registration Form</h1>
+
+	<br>
+
+	<div class="row">
+		<div class="col-md-6">
+			<label for="name" id="name">Name :</label>
+			<br>
+			<input type="text" class="form-control">	
+		</div>
+		<div class="col-md-6">
+			<label for="age" id="age">Age :</label>
+			<br>
+			<input type="number" class="form-control">	
+		</div>
+	</div>
+
+	<br>
+
+		<div class="row">
+		<div class="col-md-6">
+			<label for="email" id="email">School Email Adress :</label>
+			<br>
+			<input type="text" class="form-control">	
+		</div>
+		<div class="col-md-6">
+			<label for="pn" id="pn">Phone Number :</label>
+			<br>
+			<input type="number" class="form-control">	
+		</div>
+	</div>
+
+	<br>
+
+	<div class="col-md-6">
+			<label for="pdl" id="pdl">Preferred Drama Lessons :</label>
+			<br>
+			<input type="checkbox" class="" name="improv">	
+				<label for="poetry"> Poetry</label>
+				<br>
+			<input type="checkbox" class="" name="improv">	
+				<label for="improv"> Improvisation</label>
+				<br>
+			<input type="checkbox" class="" name="theatre">	
+				<label for="theatre"> Theatre</label>	
+				<br>
+			<input type="checkbox" class="" name="musical">	
+				<label for="musical"> Musical Theatre</label>	
+	</div>
+
+	<br>
+
+	<div class="col-md-6">
+			<label for="exp" id="exp">Drama Experience Level :</label>
+			<br>
+			<input type="radio" class="" name="beg">	
+				<label for="beg"> Beginner</label>
+				<br>
+			<input type="radio" class="" name="int">	
+				<label for="int"> Intermediate</label>
+				<br>
+			<input type="radio" class="" name="adv">	
+				<label for="adv"> Advanced</label>	
+	</div>
+
+	<br>
+
+	<div class="row">
+		<div col-md-6>
+			<label for="project" id="project">Preferred Drama Project :</label>
+			<select class="form-control">
+				<option value="" disabled selected>Choose a project...</option>
+				<option value="poetry-">POETRY : Create a 6 stanza poem about a personal experience which deeply affected you and orally recite it.</option>
+				<option value="improv-">IMPROV : Students will talk about a topic then move onto the next abruptly when signaled by the teacher--which is mainly improvising.</option>
+				<option value="theatre-">THEATRE : Students will memorize a one-man/woman script and perform.</option>
+				<option value="musical-">MUSICAL THEATRE : Students will sing 3 assigned songs from famous musicals and perform.</option>
+			</select>
+		</div>
+	</div>
+
+	<br>
+
+	<div class="row">
+		<div class="col-md-12">
+			<label for="why" id="why">Why do you want to join?</label>
+			<br>
+			<textarea class="form-control" placeholder="Type here..." rows="5"></textarea>
+		</div>
+	</div>
+
+	<br><br>
+
+	<div class="row">
+    	<div class="col-md-12 col-sm-12">
+			<h3>About the Lessons</h3>
+			<div class="table-responsive">
+				<table class="table table-bordered">
+					<thead>
+                    	<tr>
+                            <th>Lessons</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>POETRY</td>
+                            <td>The topics learned under poetry will be: Elements of Poetry, Types of Poetry, Delving into Themes, and more.
+
+                            <br><br>
+
+                            Students will engage in activities such as: Poetry Festivals, Slam Poetry Recital, Collaborative Writing, and Poetry Showcasing</td>
+                        </tr>
+                        <tr>
+                            <td>IMPROVISATION</td>
+                            <td>Students will engage in activities which will enhance their ability to improvise such as: Character Swaps, Group Storytelling, ABC Improv, Genre Switch, and more.
+
+                            <br><br>
+
+                            These activities will enhance the students' ability to response when unexpected situations arise and more.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>THEATRE</td>
+                            <td>The topics learned under theatre will be: Method Acting, Character Development, Voice and Diction, Theatre History, Playwriting, Stagecraft, and Directing.
+
+                            <br><br>
+
+                            Students will engage in activities such as: Character Monologue Recitation, Short Plays, Emotion Charades, School Theatre Performances, Role-Playing, and more. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>MUSICAL THEATRE</td>
+                            <td>Students will learn and do the following: Vocal Lessons, Acting Lessons, Musical Theatre Repertoire, and more.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+        </div>
+
+	<br><br>
+
+	<div class="row">
+		<div class="d-grid">
+			<button class="btn btn-outline-light btn-block">Audition now and join the Drama Club!</button>
+		</div>
+	</div>
+
+	<br><br><br>
+
+	<a href="Q2SW2_ References.pdf">
+		<p>references</p>
+	</a>
+
+    </form>
+</div>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
